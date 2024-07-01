@@ -1,0 +1,71 @@
+[
+    {
+        "outputs": [
+            {
+                "name": "counter",
+                "puzzle": "master",
+                "match": {
+                    "type": "GREATERTHAN",
+                    "value": 5
+                }
+            },
+            {
+                "name": "test",
+                "puzzle": "test",
+                "match": {
+                    "type": "test",
+                    "value": "test"
+                }
+            }
+        ],
+        "inputs": [
+            {
+                "name": "light_on",
+                "puzzle": "slave",
+                "send": {
+                    "type": "ALLCONDITIONSFULLFILLED"
+                }
+            },
+            {
+                "name": "test",
+                "puzzle": "test",
+                "send": {
+                    "type": "test"
+                }
+            }
+        ]
+    },
+    {
+        "outputs": [
+            {
+                "name": "light_toggled",
+                "puzzle": "master",
+                "match": {
+                    "type": "GREATERTHAN",
+                    "value": 5
+                }
+            }
+        ],
+        "inputs": [
+            {
+                "name": "play_sound",
+                "puzzle": "slave",
+                "send": {
+                    "type": "PUZZLEOUTPUT"
+                }
+            }
+        ]
+    },
+    {
+        "outputs": [],
+        "inputs": []
+    },
+    {
+        "outputs": [],
+        "inputs": []
+    },
+    {
+        "outputs": [],
+        "inputs": []
+    }
+]

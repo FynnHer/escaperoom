@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Puzzle 1",
+      "inputs": [
+        {
+          "name": "Int input",
+          "type": "INT",
+          "lastTriggered": "2024-06-19T17:25:23",
+          "lastTriggerValue": 42
+        },
+        {
+          "name": "Action input",
+          "type": "ACTION",
+          "lastTriggered": null,
+          "lastTriggerValue": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Int output",
+          "type": "INT",
+          "value": 69,
+          "modified": true,
+          "lastModified": "2024-06-19T17:25:23"
+        },
+        {
+          "name": "Action output",
+          "type": "ACTION",
+          "value": null,
+          "modified": true,
+          "lastModified":  "2024-06-19T17:25:00"
+        }
+      ],
+      "isOnline": true,
+      "lastSeen": null,
+      "ip": null
+    },
+    {
+        "name": "Puzzle 2",
+        "inputs": [
+          {
+            "name": "Bool input",
+            "type": "BOOL",
+            "lastTriggered": "2024-06-19T17:25:23",
+            "lastTriggerValue": 42
+          },
+          {
+            "name": "String input",
+            "type": "STRING",
+            "lastTriggered": "2025-06-19T17:25:23",
+            "lastTriggerValue": "test"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "Bool output",
+            "type": "BOOL",
+            "value": false,
+            "modified": false,
+            "lastModified": null
+          },
+          {
+            "name": "Action output",
+            "type": "STRING",
+            "value": "test",
+            "modified": true,
+            "lastModified":  "2024-06-19T17:25:00"
+          }
+        ],
+        "isOnline": true,
+        "lastSeen": "2024-06-19T17:25:23",
+        "ip": "192.168.178.1"
+      }
+  ]
