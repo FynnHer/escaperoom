@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^private/ - [F,L]
+    RewriteRule ^config/ - [F,L]
+</IfModule>
